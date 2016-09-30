@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>reveal.js</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css" id="theme">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+    <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+           
+
+            <section>
+                <h2>nature - art - technology</h2>
+
+                <img src="yellow-tree-roots.png">
+
+            </section>
+
+             <section>
+                <iframe width="1000px" height="650px" src="https://www.youtube.com/embed/-2eHDC2DrMA" frameborder="0" allowfullscreen></iframe>
+            </section>
+
+            <section>
+
+
+
+            <section>
+                <h2>seeing patterns, <br>
+                making patterns</h2>
+
+            </section>
+
+
+
+            <section data-background-image="plant-patterns.png"></section>
+            <section data-background-image="leaf-skeleton.jpg"></section>
+            <section data-background-image="leaf-trellis.png"></section>
+            <section data-background-image="http://n-e-r-v-o-u-s.com/projects/i.php?/000/493/nervous05,medium_large.1415409128.jpg"></section>
+
+            <section> <img style="border:none;" src="laser-cut-leaves.png"></section>
+
+
+         </section>
+
+
+         <section>
+
+         <section>
+
+                <h2>surreal >> real</h2>
+
+                </section>
+
+
+
+            <section data-background-image="goldsworthy.png"></section>
+            <section data-background-image="leaf-carve3.png"></section>
+            <section>
+                <div style="position:fixed; top:-200px; left: -50px; width:500px; height: 500px; background-image:url(stick-person.png); display:inline-block;  background-repeat:no-repeat; background-size:contain;"></div>
+                <div style="position:fixed; top:-200px; left: 520px; width:500px; height: 300px; background-image:url(tree-carving.png); display:inline-block; background-repeat:no-repeat; background-size:contain;"></div>
+            </section>
+
+        
+            <section>
+                <div style="position:fixed; top:-200px; left: -10px; width:500px; height: 500px; background-image:url(leaf-carve2.png); display:inline-block;  background-repeat:no-repeat; background-size:contain;"></div>
+                <div style="position:fixed; top:-200px; left: 520px; width:500px; height: 500px; background-image:url(leaf-carve1.png); display:inline-block; background-repeat:no-repeat; background-size:contain;"></div>
+            </section>
+
+           
+
+            <section data-background-image="http://www.art-spire.com/wp-content/gallery/2012/Octobre_2012/03-10-12_Jean_Paul_Bourdier/affiche_L.jpg">
+
+
+                
+            </section>
+
+   <section>
+                <div style="position:fixed; top:-200px; left: -10px; width:500px; height: 500px; background-image:url(birdhouse.png); display:inline-block;  background-repeat:no-repeat; background-size:contain;"></div>
+                <div style="position:fixed; top:-200px; left: 520px; width:500px; height: 500px; background-image:url(https://meninacultura.files.wordpress.com/2012/12/spontaneous-city-birdhouse-birdhouses-london-kings-wood-unique-beautiful-bird-house-art-outdoor-installation-tree.jpg?w=529&h=358); display:inline-block; background-repeat:no-repeat; background-size:contain;"></div>
+            </section>
+
+            </section>
+
+
+                        <section>
+
+
+
+            <section><h2>seeing old things in new ways </h2> <br> <h3>playing with time and scale through photography and videography</h3></section>
+
+
+
+            <section>
+                <iframe src="https://player.vimeo.com/video/88829079?title=0&byline=0&portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                
+            </section>
+            <section data-background-video="snail.m4v" autoplay></section>
+            <section data-background-video="color-snail.mov" autoplay></section>
+
+            </section>
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [{
+            src: 'lib/js/classList.js',
+            condition: function() {
+                return !document.body.classList;
+            }
+        }, {
+            src: 'plugin/markdown/marked.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        }, {
+            src: 'plugin/markdown/markdown.js',
+            condition: function() {
+                return !!document.querySelector('[data-markdown]');
+            }
+        }, {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            callback: function() {
+                hljs.initHighlightingOnLoad();
+            }
+        }, {
+            src: 'plugin/zoom-js/zoom.js',
+            async: true
+        }, {
+            src: 'plugin/notes/notes.js',
+            async: true
+        }]
+    });
+    </script>
+</body>
+
+</html>
